@@ -1,0 +1,36 @@
+ page{
+  background-image: linear-gradient(to bottom,rgba(102,102,102,0.5),rgba(202,202,202,0.5),rgba(102,102,102,0.5));
+  color: #369;
+}
+
+view{
+  background-color: rgba(0, 0, 0, 0)
+}
+
+.line{
+  padding:0 10rpx 0 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100rpx;
+  font-size: 14px;
+  border-bottom: 1px solid #fff;
+}
+
+.phone-line{
+  display: flex;
+  align-items: center;
+}
+
+image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.right{
+  margin-right: 40rpx;
+}
+
+button{
+  margin-top: 100rpx;
+}

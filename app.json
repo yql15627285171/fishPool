@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/eList/eList",
+    "pages/advertisement/advertisement",
+    "pages/index/index",
+    "pages/addEquip/addEquip",
+    "pages/operation/operation",
+    "pages/setTime/setTime",
+    "pages/chartControl/chartControl",
+    "pages/phoneSetting/phoneSetting",
+    "pages/oxygenSetting/oxygenSetting",
+    "pages/firstSetting/firstSetting",
+    "pages/mySetting/mySetting",
+    "pages/deviceInfo/deviceInfo",
+    "pages/bangRelative/bangRelative",
+    "pages/relativeUser/relativeUser"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#444444",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/eList/eList",
+        "text": "设备",
+        "iconPath": "image/unselected_device.png",
+        "selectedIconPath": "image/selected_device.png"
+      },
+      {
+        "pagePath": "pages/mySetting/mySetting",
+        "text": "我的",
+        "iconPath": "image/unselected_me.png",
+        "selectedIconPath": "image/selected_me.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000,
+    "uploadFile": 10000
+  }
+}

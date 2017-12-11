@@ -1,0 +1,13 @@
+<swiper indicator-dots autoplay interval="4000" style="height:{{devHeight}}px;">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:{{devWidth}}px;height:{{devHeight}}px;"/>
+      <view wx:if='{{index == 2}}'class='loginBtn'>
+        <button type='warn' bindtap='login'>去登录</button>
+      </view>  
+    </swiper-item>
+  </block>
+</swiper>
+<!-- <view class='showTime' bindtap='jump'>
+  <text>跳过 {{jumpTime}}s后</text>
+</view> -->

@@ -1,0 +1,106 @@
+page{
+  background-image: linear-gradient(to bottom,rgba(102,102,102,0.5),rgba(202,202,202,0.5),rgba(102,102,102,0.5));
+  color: white;
+  /* font-size: 16rpx; */
+}
+
+.ml-20{
+  margin-left: 20rpx;
+}
+
+.mr-20{
+  margin-right: 20rpx;
+}
+
+.mt-20{
+  margin-top: 20rpx;
+}
+
+.mb-20{
+  margin-bottom: 20rpx;
+}
+
+.addEquip{
+  text-align: center;
+  height: 250rpx;
+  border: 2px dashed #fff;
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 10px;
+  /* font-size: 32rpx; */
+}
+
+.addImg{
+  width: 200rpx;
+  height:200rpx;
+  margin-top: 25rpx;
+}
+
+.list{
+  background-color: #fff;
+  width: 80%;
+  margin: 40px auto;
+  color: black;
+  /* border: 2px solid #fff; */
+  border-radius: 10px;
+  /* box-shadow: 4px 2px 2px 2px #ccc  */
+  font-size: 16px;
+}
+
+.equip-title{
+  /* background-color: #f0f0f0; */
+   border-bottom: 1px solid  #ccc;
+}
+
+.equip-details{
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+}
+
+.equip-details progress{
+  width: 75%;
+  margin-left: 10rpx;
+}
+
+.equip-details text{
+  color: #369;
+}
+
+.open{
+  width: 180rpx;
+  font-size: 22rpx;
+  background-color: green;
+  color: #fff;
+  padding: 0;
+}
+
+.close{
+  width: 180rpx;
+  font-size: 22rpx;
+  background-color: red;
+  color: #fff;
+  padding: 0;
+
+}
+
+.short-text{
+  width: 50px;
+  text-align: left;
+
+}
+
+text{
+    font-size: 26rpx;
+}
+.advertisement{
+  width: 100%;
+  height: 130px
+}
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+<view class="addEquip" bindtap="addEquip">
+  <image class='addImg' src='../../image/add.png'></image>
+</view>
+
+<view class='list' bindtap='directToOperation' data-name="虾池塘">
+  <view class='equip-title'>
+  <text  class='ml-20'>虾池塘 在线</text>
+  </view>
+  <view class="equip-details">
+    <text class='ml-20 short-text'>溶氧比</text>
+    <progress percent='50' activeColor="green" stroke-width="12" show-info ></progress>
+  </view>
+
+  <view class="equip-details">
+    <text  class='ml-20 short-text'>水温</text>
+    <progress percent='80' activeColor="red" stroke-width="12" show-info ></progress>
+  </view>
+  <view class="equip-details">
+    <text  class='ml-20 short-text'>PH</text>
+    <progress percent='0' activeColor="blue" stroke-width="12" show-info ></progress>
+  </view>
+
+  <view class="equip-details">
+    <text class="ml-20 mr-20">开关状态</text>
+    <button class='close ml-20 '>增氧机一(关)</button>
+    <button class='open ml-20'>增氧机二(开)</button>
+  </view>
+
+  <view class="equip-details">
+    <text class='ml-20 mr-20'>氨氮</text>
+    <text class='ml-20  mr-20'>1</text>
+    <text class='ml-20  mr-20'>亚硝酸盐</text>
+    <text class='ml-20  mr-20'>0</text>
+  </view>
+
+  <view class="equip-details">
+    <text class='ml-20 mr-20'>更新时间</text>
+    <text class='ml-20'>2017-10-01 00:23:12</text>
+  </view>
+</view>
+
+<!--*******************  -->
+<view class='list' bindtap='directToOperation' data-name="四大家鱼池塘">
+  <view class='equip-title'>
+  <text  class='ml-20'>四大家鱼池塘 在线</text>
+  </view>
+  <view class="equip-details">
+    <text class='ml-20 short-text'>溶氧比</text>
+    <progress percent='50' activeColor="green" stroke-width="12" show-info ></progress>
+  </view>
+
+  <view class="equip-details">
+    <text  class='ml-20 short-text'>水温</text>
+    <progress percent='30' activeColor="red" stroke-width="12" show-info ></progress>
+  </view>
+  <view class="equip-details">
+    <text  class='ml-20 short-text'>PH</text>
+    <progress percent='50' activeColor="blue" stroke-width="12" show-info ></progress>
+  </view>
+
+
+
+  <view class="equip-details">
+    <text class="ml-20 mr-20">开关状态</text>
+    <button class='open ml-20 '>增氧机一(开)</button>
+    <button class='close ml-20'>增氧机二(关)</button>
+  </view>
+
+  
+
+   <view class="equip-details">
+    <text class='ml-20 mr-20'>氨氮</text>
+    <text class='ml-20  mr-20'>1</text>
+    <text class='ml-20  mr-20'>亚硝酸盐</text>
+    <text class='ml-20  mr-20'>0</text>
+  </view>
+
+  <view class="equip-details">
+    <text class="ml-20 mr-20">更新时间</text>
+    <text class='ml-20'>2017-10-01 00:23:12</text>
+  </view>
+</view>
+
+<!--*************  -->
+
+<view class='list' bindtap='directToOperation' data-name="海洋">
+  <view class='equip-title'>
+  <text  class='ml-20'>海洋 离线</text>
+  </view>
+  <view class="equip-details">
+    <text class='ml-20 short-text'>溶氧比</text>
+    <progress percent='20' activeColor="green" stroke-width="12" show-info ></progress>
+  </view>
+
+  <view class="equip-details">
+    <text  class='ml-20 short-text'>水温</text>
+    <progress percent='30' activeColor="red" stroke-width="12" show-info ></progress>
+  </view>
+  <view class="equip-details">
+    <text  class='ml-20 short-text'>PH</text>
+    <progress percent='50' activeColor="blue" stroke-width="12" show-info ></progress>
+  </view>
+
+  <view class="equip-details">
+    <text class="ml-20 mr-20">开关状态</text>
+    <button class='close ml-20 '>增氧机一(关)</button>
+    <button class='close ml-20'>增氧机二(关)</button>
+  </view>
+
+  <view class="equip-details">
+    <text class='ml-20 mr-20'>氨氮</text>
+    <text class='ml-20  mr-20'>1</text>
+    <text class='ml-20  mr-20'>亚硝酸盐</text>
+    <text class='ml-20  mr-20'>0</text>
+  </view>
+
+  <view class="equip-details">
+    <text class='ml-20 mr-20'>更新时间</text>
+    <text class='ml-20'>2017-10-01 00:23:12</text>
+  </view>
+</view>
+<!--广告  -->
+<view class='mt-20'>
+  <image src='../../image/timg.png' class='advertisement'></image>
+</view>

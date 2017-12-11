@@ -1,0 +1,82 @@
+<view class="operationName">
+  <text>定时操作</text>
+</view>
+ <!-- <view class='setting'>
+  <picker mode="date" value="{{startDate}}"  bindchange="bindStartDateChange">
+    <view class="picker">
+    <text>开始日期</text>
+    <text class='chose'>{{startDate}}</text>
+    </view>
+  </picker>
+
+  <picker mode="time" value="{{time}}"  bindchange="bindTimeChange">
+    <view class="picker">
+      <text>设定时间</text>
+      <text class='chose'>{{time}}</text>
+      
+    </view>
+  </picker>
+
+
+ <picker bindchange="bindFrequencyChange" value="{{frequency}}" range="{{frequencyList}}">
+    <view class="picker">
+     <text>重复</text>
+     <text class='chose'>{{frequency}}</text>
+    </view>
+  </picker>
+
+  <picker mode="date" value="{{endDate}}"  bindchange="bindEndDateChange">
+    <view class="picker">
+     <text>结束日期</text>
+      <text class='chose'>{{endDate}}</text>
+    </view>
+  </picker>
+</view>  -->
+<view class='setting'>
+  <view class='line'>
+     <picker mode="time" value="{{startTime1}}"  bindchange="bindTimeChange" data-type="s1">
+    <view class="picker">
+      <text class='chose'>{{startTime1}}</text>
+    </view>
+  </picker>
+  <view>至</view>
+    <picker mode="time" value="{{endTime1}}"  bindchange="bindTimeChange" data-type="e1">
+    <view class="picker">
+      <text class='chose'>{{endTime1}}</text>
+    </view>
+  </picker>
+  </view>
+
+  <view class='line'>
+     <picker mode="time" value="{{startTime2}}"  bindchange="bindTimeChange" data-type="s2">
+    <view class="picker">
+      <text class='chose'>{{startTime2}}</text>
+    </view>
+  </picker>
+  <view>至</view>
+    <picker mode="time" value="{{endTime2}}"  bindchange="bindTimeChange" data-type="e2">
+    <view class="picker">
+      <text class='chose'>{{endTime2}}</text>
+    </view>
+  </picker>
+  </view>
+
+  <view class='line'>
+     <picker mode="time" value="{{startTime3}}"  bindchange="bindTimeChange" data-type="s3">
+    <view class="picker">
+      <text class='chose'>{{startTime3}}</text>
+    </view>
+  </picker>
+  <view>至</view>
+    <picker mode="time" value="{{endTime3}}"  bindchange="bindTimeChange" data-type="e3">
+    <view class="picker">
+      <text class='chose'>{{endTime3}}</text>
+    </view>
+  </picker>
+  </view>
+
+
+</view>
+
+
+<button type='primary'>确定</button>

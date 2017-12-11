@@ -1,0 +1,25 @@
+page{
+  background-image: linear-gradient(to bottom,rgba(102,102,102,0.5),rgba(202,202,202,0.5),rgba(102,102,102,0.5));
+  color: #369;
+  font-size: 32rpx;
+} 
+
+.line{
+  display: flex;
+  border-bottom: 1px solid #fff;
+  padding-left: 10rpx;
+  height: 100rpx;
+  align-items: center;
+}
+
+.line:first-child{
+  margin-top: 20rpx;
+}
+
+button{
+  margin-top: 80rpx;
+}
+
+input{
+  width: 80%;
+}

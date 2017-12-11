@@ -1,0 +1,37 @@
+<view>
+  <view class='line'>
+    <text>设备串号：</text>
+    <input></input>
+  </view>
+  <view class='line'>
+    <text>设备密码：</text>
+    <input disabled></input>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view class='line'>
+    <text>设备名称：</text>
+    <input></input>
+  </view>
+  <view class='line'>
+    <text>水产类型：</text>
+    <input></input>
+  </view>
+  <view class='line'>
+    <text>水域面积：</text>
+    <input></input>
+  </view>
+  <view class='line'>
+    <text>水域深度：</text>
+    <input></input>
+  </view>
+  <view class='line'>
+    <text>水产类型：</text>
+    <input></input>
+  </view>
+  <view class='line'>
+    <text>幼苗数量：</text>
+    <input></input>
+  </view>
+
+  <button type='primary'>确定</button>
+</view>

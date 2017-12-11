@@ -1,0 +1,43 @@
+ page{
+  background-image: linear-gradient(to bottom,rgba(102,102,102,0.5),rgba(202,202,202,0.5),rgba(102,102,102,0.5));
+  color: #369;
+} 
+
+
+
+.wrap view{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 15px;
+  height: 100rpx;
+  padding:0 20rpx;
+}
+
+.wrap{
+  margin-top: 40rpx;
+}
+
+/* .first{
+  margin-top: 20rpx;
+} */
+
+.wrap .title{
+  font-size: 18px;
+  /* background-color: #99ffff; */
+}
+
+image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+button{
+  margin-top: 80rpx;
+}
+
+.bottom{
+  height: 100rpx;
+}

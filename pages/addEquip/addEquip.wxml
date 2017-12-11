@@ -1,0 +1,45 @@
+<view class='equip-info'>
+  <view class="qeuip-title">设备信息(必填)</view>
+  <view class='input-line'>
+    <text>设备串号：</text>
+    <input placeholder="mac地址"></input>
+  </view>
+  <view class='input-line'>
+    <text>设备密码：</text>
+    <input password placeholder="请输入密码"></input>
+  </view>
+  <view class='input-line'>
+    <text>设备名称：</text>
+    <input placeholder="自定义设备名"></input>
+  </view>
+  
+</view>
+
+<view class='area-info'>
+  <view class='area-title'>
+    <text>水域信息(选填)</text>
+  </view>
+  <view class='input-line' bindtap='choseArea'>
+    <text>水域类型：</text>
+    <text>{{areaType}}</text>
+  </view>
+  <view class='input-line'>
+    <text>水域面积：</text>
+    <input placeholder='单位亩'></input>
+  </view>
+  <view class='input-line'>
+    <text>水域深度：</text>
+    <input placeholder='单位米'></input>
+  </view>
+  <view class='input-line' bindtap='choseFish'>
+    <text>水产类型：</text>
+    <!-- <input placeholder='水产类型'></input> -->
+    <text class='type'>{{fishType}}</text>
+  </view>
+  <view class='input-line'>
+    <text>幼苗数量：</text>
+    <input placeholder='单位条'></input>
+  </view>
+</view>
+<button type='primary'>添加</button>
+<view class='bottom'></view>

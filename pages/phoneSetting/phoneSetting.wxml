@@ -1,0 +1,8 @@
+<block wx:for="{{phoneNumber}}">
+  <view class='line'>
+    <text>{{text[index]}}</text>
+    <input type='number' value="{{item}}"></input>
+  </view>
+</block>
+
+<button type='primary'>确定</button>

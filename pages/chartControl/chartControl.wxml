@@ -1,0 +1,56 @@
+ <!--图表  -->
+ <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler" style='height:200px;width:{{canvasWidth-14}}px;margin-top:20rpx;'></canvas>
+
+<view class='first-equip'>
+  <view class='manual-open'>
+    <view class='text'>
+      <text>增氧机一</text>
+    </view>
+    <view class='control-line switch'>
+      <switch disabled="{{firstSwitchDisabled}}"></switch>
+    </view>
+    
+  </view>
+  <view class='model'>
+     <view class='text'>
+      <text>模式设置</text>
+    </view>
+    <view class='control-line btn' data-equip="first" bindtap='changeModel'>{{firstModel}}</view>
+  </view>
+  <view class='clock'>
+     <view class='text'>
+      <text>定时设置</text>
+    </view>
+    <view class='clock control-line'>
+      <image src='{{firstClockUrl}}' bindtap='setTime' data-equip="first"></image>
+    </view>
+    
+  </view>
+</view>
+
+<view class='second-equip'>
+  <view class='manual-open'>
+    <text>增氧机二</text>
+    <view class='control-line switch'>
+      <switch disabled="{{secondSwitchDisabled}}"></switch>
+    </view>
+    
+  </view>
+  <view class='model'>
+    <text>模式设置</text>
+    <view class='control-line btn' data-equip="second" bindtap='changeModel'>{{secondModel}}</view>
+  </view>
+  <view class='clock'>
+    <text>定时设置</text>
+    <view class='clock control-line'>
+      <image src='{{secondClockUrl}}' bindtap='setTime' data-equip="second"></image>
+    </view>
+    
+  </view>
+</view>
+
+<view class='setting-line'>
+  <button bindtap='setting'>设置</button>
+  <button >操作记录</button>
+  <button>自检</button>
+</view>

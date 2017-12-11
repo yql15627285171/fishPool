@@ -1,0 +1,10 @@
+<view>
+  <view class='line' wx:for='{{user}}' bindlongpress='removeRelative' data-index='{{index}}'>
+    <text>{{item.name}}</text>
+    <view class='inline'>
+      <text>{{item.power}}</text>
+      <image src='../../image/details.png'></image>
+    </view>
+  </view>
+
+</view>

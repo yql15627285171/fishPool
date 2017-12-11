@@ -1,0 +1,9 @@
+<block wx:for="{{text}}">
+  <view class='line'>
+    <text>{{item}}</text>
+    <input type='digit' value='{{value[index]}}'></input>
+  </view>
+  
+</block>
+
+<button type='primary'>确定</button>

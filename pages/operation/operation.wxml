@@ -1,0 +1,110 @@
+<!-- <view class="wrap first">
+
+  <view class='title'>
+  <text>增氧机一</text>
+  </view>
+  <view>
+    <text>手动开启</text>
+    <switch></switch>
+  </view>
+  <view>
+    <text>自动开启</text>
+    <switch></switch>
+  </view> 
+  <view bindtap='setTime' data-name="增氧机一">
+    <text>定时</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view>
+    <text>自动定时</text>
+    <image src='../../image/details.png'></image>
+  </view>
+</view>
+
+<view class="wrap">
+  <view class='title'>
+    <text>增氧机二</text>
+  </view>
+  <view>
+    <text>手动开启</text>
+    <switch></switch>
+  </view>
+  <view>
+    <text>自动开启</text>
+    <switch></switch>
+  </view> 
+  <view bindtap='setTime' data-name="增氧机二">
+    <text>定时</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view>
+    <text>自动定时</text>
+    <image src='../../image/details.png'></image>
+  </view>
+</view> -->
+
+<!--历史记录  -->
+<!-- <view class='wrap'>
+  <view class='title'>历史记录</view>
+  <view>
+    <text>溶氧记录</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view>
+    <text>水温记录</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view>
+    <text>PH记录</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view>
+    <text>操作记录</text>
+    <image src='../../image/details.png'></image>
+  </view>
+</view> -->
+<!--设置  -->
+<view class='wrap'>
+  <!-- <view class='title'>设置</view> -->
+  <view data-equip="first" bindtap='setTime'>
+    <text>增氧机一定时设置</text>
+    <image src='../../image/details.png'></image>
+  </view>
+   <view data-equip="second" bindtap='setTime'>
+    <text>增氧机二定时设置</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view bindtap='setOxygen'>
+    <text>氧限设置</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view>
+    <text>溶氧校准</text>
+    <image src='../../image/details.png'></image>
+  </view>
+   <view bindtap='setPhone'>
+    <text>报警电话</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view bindtap='toBingRelative'>
+    <text>绑定关联</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view bindtap='toRelativeUser'>
+    <text>关联用户</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view bindtap='setDeviceInfo'>
+    <text>设备信息</text>
+    <image src='../../image/details.png'></image>
+  </view>
+  <view>
+    <text>历史数据</text>
+    <image src='../../image/details.png'></image>
+  </view>
+
+</view>
+
+<button type='warn'>删除设备</button>
+
+ <view class='bottom'></view> 

@@ -1,0 +1,39 @@
+page{
+    background-image: linear-gradient(to bottom,rgba(102,102,102,0.5),rgba(202,202,202,0.5),rgba(102,102,102,0.5));  
+
+}
+.first-equip,
+.second-equip,
+.setting-line{
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-around;
+  font-size: 32rpx;
+}
+
+.first-equip,
+.setting-line{
+  margin-top: 100rpx;
+}
+
+
+.control-line{
+  margin-top: 20rpx;
+  width: 128rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+
+
+image{
+  margin-top: 8rpx;
+  width: 64rpx;
+  height: 64rpx;
+}
+
+
+button{
+  width: 200rpx;
+  font-size: 32rpx;
+}

@@ -1,0 +1,45 @@
+ page{
+  background-image: linear-gradient(to bottom,rgba(102,102,102,0.5),rgba(202,202,202,0.5),rgba(102,102,102,0.5));
+  color: #369;
+} 
+
+view{
+  background-color: rgba(0,0,0,0) 
+}
+
+.operationName{
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+  font-size: 18px;
+}
+
+.setting{
+  margin: 40rpx 0;
+}
+
+/* .picker{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40rpx 0 20rpx;
+  border-bottom: 1px solid #fff;
+  font-size: 15px;
+  height: 100rpx;
+}
+
+.chose{
+  color: #699
+} */
+
+button{
+  /* width: 80%; */
+  margin-top: 40rpx;
+}
+
+.line{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #fff;
+  padding: 20rpx 0
+
+}

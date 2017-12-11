@@ -1,0 +1,35 @@
+ page{
+  background-image: linear-gradient(to bottom,rgba(102,102,102,0.5),rgba(202,202,202,0.5),rgba(102,102,102,0.5));
+  color: #369;
+}
+
+view{
+  background-color: rgba(0, 0, 0, 0)
+}
+
+.line{
+  padding-left: 20rpx;
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  font-size: 14px;
+  border-bottom: 1px solid #fff;
+}
+
+.line text{
+  margin-right: 10rpx;
+}
+
+.line input{
+  width: 65%;
+}
+
+image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 30rpx;
+}
+
+button{
+  margin-top: 100rpx;
+}

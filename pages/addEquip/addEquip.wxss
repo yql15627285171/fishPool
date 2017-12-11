@@ -1,0 +1,48 @@
+ page{
+  background-image: linear-gradient(to bottom,rgba(102,102,102,0.5),rgba(202,202,202,0.5),rgba(102,102,102,0.5));
+  color: #369;
+} 
+
+view{
+  background-color: rgba(0, 0, 0, 0)
+}
+
+.qeuip-title,.area-title{
+  padding-left: 20rpx;
+  margin-top: 20rpx;
+  color: black;
+  font-size: 18px;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.area-title{
+  margin-top: 60rpx;
+}
+
+
+.input-line{
+  padding-left: 20rpx;
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  font-size: 14px;
+  border-bottom: 1px solid #fff;
+}
+
+.input-line text{
+  margin-right: 10rpx;
+}
+
+.input-line input,.type{
+  width: 65%;
+}
+
+button{
+  margin-top: 80rpx;
+}
+
+.bottom{
+  height: 100rpx;
+}
+
+
