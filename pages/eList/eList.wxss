@@ -30,6 +30,7 @@ page{
   /* font-size: 32rpx; */
 }
 
+
 .addImg{
   width: 200rpx;
   height:200rpx;
@@ -97,6 +98,7 @@ text{
   width: 100%;
   height: 130px
 }
+
 
 
 

@@ -79,4 +79,4 @@
 </view>
 
 
-<button type='primary'>确定</button>
+<button type='primary' bindtap='setEffectiveTime'>确定</button>

@@ -105,14 +105,16 @@ Page({
     })
   },
 
-  // 跳转绑定关联界面
-  toBingRelative:function(){
-    wx.navigateTo({
-      url: '../bangRelative/bangRelative?type=part',
-    })
-  },
+  // // 跳转绑定关联界面
+  // toBingRelative:function(){
+  //   wx.navigateTo({
+  //     url: '../bangRelative/bangRelative?type=part',
+  //   })
+  // },
 
-  // 跳转到关联用户界面
+/**
+ * 跳转到关联用户界面
+ */
   toRelativeUser:function(){
     wx.navigateTo({
       url: '../relativeUser/relativeUser'

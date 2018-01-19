@@ -1,4 +1,6 @@
-// pages/relativeUser/relativeUser.js
+/**
+ * 选择用户管理设备功能
+ */
 Page({
 
   /**
@@ -8,34 +10,51 @@ Page({
     user:[
       {
         name:'张三',
-        power:'使用者'
+        value:'张三',
+        checked:true
       },
       {
         name:'李四',
-        power:'管理者'
+        value:'李四',
+        checked: true
+      },
+      {
+        name:'王五',
+        value:'王五',
+        checked:false
       }
     ]
   },
 
   // 移除设备与关联用户的关系
-  removeRelative:function(e){
-    var index = parseInt(e.currentTarget.dataset.index)
-    console.log(index)
-    var temp = this.data.user
-    temp.splice(index,1)
-    wx.showActionSheet({
-      itemList: ['解除绑定'],
-      success: (res)=> {
-        if(res.tapIndex == 0){
-          this.setData({
-            user: temp
-          })
-        }
-      },
-      fail: function(res) {},
-      complete: function(res) {},
-    })
+  // removeRelative:function(e){
+  //   var index = parseInt(e.currentTarget.dataset.index)
+  //   console.log(index)
+  //   var temp = this.data.user
+  //   temp.splice(index,1)
+  //   wx.showActionSheet({
+  //     itemList: ['解除绑定'],
+  //     success: (res)=> {
+  //       if(res.tapIndex == 0){
+  //         this.setData({
+  //           user: temp
+  //         })
+  //       }
+  //     },
+  //     fail: function(res) {},
+  //     complete: function(res) {},
+  //   })
+  // },
+
+
+  /**
+   * 监听用户的改变
+   */
+  checkboxChange:function(event){
+    console.log(event.detail)
   },
+
+
 
   /**
    * 生命周期函数--监听页面加载

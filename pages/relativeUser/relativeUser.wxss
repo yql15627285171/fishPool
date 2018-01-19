@@ -27,3 +27,17 @@ image{
   width: 40rpx;
   height: 40rpx;
 }
+
+.checkbox{
+  display: flex;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #fff;
+}
+
+.checkbox checkbox{
+  margin: 0 40rpx 0 20rpx; 
+}
+
+.btn{
+  margin-top: 60rpx;
+}

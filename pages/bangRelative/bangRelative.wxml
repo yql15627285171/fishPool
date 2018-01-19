@@ -7,10 +7,10 @@
     <text>电话</text>
     <input></input>
   </view>
-  <view class='line' wx:if="{{type == 'part'}}">
+  <!-- <view class='line' wx:if="{{type == 'part'}}">
     <text>权限</text>
     <input></input>
-  </view>
+  </view> -->
 
   <button type='primary'>绑定</button>
 </view>

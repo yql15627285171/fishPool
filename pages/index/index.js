@@ -13,8 +13,9 @@ onLoad: function () {
 
 login:function(){
   // 判断是否第一次登录，若是
-  wx.redirectTo({
-    url: '../firstSetting/firstSetting',
+  wx.switchTab({
+    // url: '../firstSetting/firstSetting',
+    url: '../eList/eList',
   })
 // 若否
 //  wx.redirectTo({

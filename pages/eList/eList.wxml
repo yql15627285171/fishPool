@@ -120,6 +120,6 @@
   </view>
 </view>
 <!--广告  -->
-<view class='mt-20'>
-  <image src='../../image/timg.png' class='advertisement'></image>
-</view>
+ <view class='mt-20'>
+  <!-- <image src='../../image/timg.png' class='advertisement'></image> -->
+</view> 

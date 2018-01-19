@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    type:'',
+    // type:'',
   },
 
   /**
@@ -13,9 +13,9 @@ Page({
    */
   onLoad: function (options) {
     // console.log(options.type)
-    this.setData({
-      type: options.type
-    })
+    // this.setData({
+    //   type: options.type
+    // })
   },
 
   /**

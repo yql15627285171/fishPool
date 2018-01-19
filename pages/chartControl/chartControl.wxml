@@ -7,7 +7,7 @@
       <text>增氧机一</text>
     </view>
     <view class='control-line switch'>
-      <switch disabled="{{firstSwitchDisabled}}"></switch>
+      <switch disabled="{{firstSwitchDisabled}}" checked="{{firstChecked}}" data-equip="first" bindchange="switchChange"></switch>
     </view>
     
   </view>
@@ -32,7 +32,7 @@
   <view class='manual-open'>
     <text>增氧机二</text>
     <view class='control-line switch'>
-      <switch disabled="{{secondSwitchDisabled}}"></switch>
+      <switch disabled="{{secondSwitchDisabled}}" checked="{{secondChecked}}" data-equip="second" bindchange="switchChange"></switch>
     </view>
     
   </view>

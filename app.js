@@ -1,4 +1,8 @@
 //app.js
+const CryptoJS = require('./utils/AES')
+const dataUtil = require('./utils/util.js')
+
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -47,7 +51,20 @@ App({
     //     }
     //   }
     // })
-  }
+  },
+
+  /**
+   * 此方法，返回一个加密参数，evalue
+   */
+  Encrypt: function (data) {
+    var key = CryptoJS.enc.Latin1.parse('j>r%T.w8#7*6J\"r%T#w8#7*6');
+    var iv = CryptoJS.enc.Latin1.parse('f@is<_2hf.T^&r\"j');
+    var ADEData = dataUtil.formatTime1(new Date())
+    console.log(ADEData)
+    return CryptoJS.AES.encrypt(ADEData, key, { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.ZeroPadding }).toString();
+  },
+
+
   // globalData: {
   //   userInfo: null
   // }

@@ -33,5 +33,5 @@
     <image src='../../image/details.png'></image>
   </view>
 
-  <button type='warn'>退出登录</button>
+  <button type='warn' bindtap='loginout'>退出登录</button>
 </view>

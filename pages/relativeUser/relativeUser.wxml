@@ -1,10 +1,17 @@
 <view>
-  <view class='line' wx:for='{{user}}' bindlongpress='removeRelative' data-index='{{index}}'>
+  <!-- <view class='line' wx:for='{{user}}' bindlongpress='removeRelative' data-index='{{index}}'>
     <text>{{item.name}}</text>
     <view class='inline'>
       <text>{{item.power}}</text>
       <image src='../../image/details.png'></image>
     </view>
-  </view>
+  </view> -->
+  <checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{user}}">
+    <checkbox value="{{item.value}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+
+<button type='primary' class='btn'>授权</button>
 
 </view>

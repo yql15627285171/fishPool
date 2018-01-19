@@ -19,6 +19,15 @@ Page({
     wx.navigateTo({
       url: '../bangRelative/bangRelative?type=all',
     })
+  },
+
+  /**
+   * 退出登录
+   */
+  loginout:function(){
+      wx.redirectTo({
+        url: '../index/index',
+      })
   }
 
  

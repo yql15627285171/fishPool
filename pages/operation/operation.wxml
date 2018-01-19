@@ -86,10 +86,10 @@
     <text>报警电话</text>
     <image src='../../image/details.png'></image>
   </view>
-  <view bindtap='toBingRelative'>
+  <!-- <view bindtap='toBingRelative'>
     <text>绑定关联</text>
     <image src='../../image/details.png'></image>
-  </view>
+  </view> -->
   <view bindtap='toRelativeUser'>
     <text>关联用户</text>
     <image src='../../image/details.png'></image>

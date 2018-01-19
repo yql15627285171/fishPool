@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/eList/eList",
     "pages/advertisement/advertisement",
-    "pages/index/index",
     "pages/addEquip/addEquip",
     "pages/operation/operation",
     "pages/setTime/setTime",
